@@ -1,0 +1,11 @@
+<ng-select
+  #ngSelectRef
+  [items]="visibleOptions"
+  bindLabel="code"
+  [multiple]="true"
+  [(ngModel)]="selectedZipCode"
+  (open)="onDropdownOpen()"
+  (search)="onSearch($event)"
+>
+</ng-select>
+

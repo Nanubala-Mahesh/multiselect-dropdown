@@ -1,5 +1,5 @@
 {
-  "name": "dropdown-multiselect",
+  "name": "drowdown-multiselect",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -11,20 +11,26 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^16.1.0",
+    "@angular/cdk": "^16.1.5",
     "@angular/common": "^16.1.0",
     "@angular/compiler": "^16.1.0",
     "@angular/core": "^16.1.0",
     "@angular/forms": "^16.1.0",
+    "@angular/material": "^16.1.5",
     "@angular/platform-browser": "^16.1.0",
     "@angular/platform-browser-dynamic": "^16.1.0",
     "@angular/router": "^16.1.0",
+    "@ng-select/ng-select": "^11.0.0",
+    "ngx-infinite-scroll": "^16.0.0",
+    "ngx-select": "^0.0.1",
+    "ngx-select-dropdown": "^3.3.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.1.6",
-    "@angular/cli": "~16.1.6",
+    "@angular-devkit/build-angular": "^16.1.4",
+    "@angular/cli": "~16.1.4",
     "@angular/compiler-cli": "^16.1.0",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.6.0",

@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'dropdown-multiselect';
+  title = 'drowdown-multiselect';
+options: any;
 }
